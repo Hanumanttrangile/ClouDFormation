@@ -1,5 +1,5 @@
 git status :for status check
 git push :for data push
 git commit -m "first commit"
-git clone for repistory clone
+git clone for repistory clone (https://github.com/Hanumanttrangile/rdsreports.git)
 git add file or folder name
