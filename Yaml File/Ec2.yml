@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  webserver01:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      ImageId: ami-0e42bfd2029a917a4
+      InstanceType: t2.micro
+      KeyName: HS1
+      
