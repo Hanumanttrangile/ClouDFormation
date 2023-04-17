@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: 'Creating  S3 bucket first'
+
+#s3 bucket
+#s3 bucket policy
+
+#AWS::S3::Bucket
+#AWS::S3::BucketPolicy
+
+##SYNATX
+# Resources:
+#  logical ID:
+#   Type:
+#    Properties:
+
+
+Resources:
+ s3bucket:
+   Type: AWS::S3::Bucket
+   Properties:
+     BucketName: bucketnamehanus3    
