@@ -1,0 +1,4 @@
+DBsubnet1:
+  Type: AWS::EC2::Subnet
+  Properties: 
+   VpcId: !Ref Myvpc
