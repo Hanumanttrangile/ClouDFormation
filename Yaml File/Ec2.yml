@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion: 2010-09-09
 Resources:
-  webserver01:
+  MyEC2Instance:
     Type: 'AWS::EC2::Instance'
     Properties:
-      ImageId: ami-0e42bfd2029a917a4
+      ImageId: ami-0fb08b4ce57852c53
       InstanceType: t2.micro
       KeyName: HS1
       
