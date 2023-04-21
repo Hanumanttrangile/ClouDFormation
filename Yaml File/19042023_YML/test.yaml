@@ -1,4 +1,13 @@
-DBsubnet1:
-  Type: AWS::EC2::Subnet
-  Properties: 
-   VpcId: !Ref Myvpc
+Resources:
+  MyEC2Instance:
+    Type: :AWS::EC2::Instance
+    Properties:
+    ImageId:ami-0742b4e673072066f
+    DependsOn: MyDB
+    MyDB:
+    Type: AWS::RDS::DBInstance
+    Properties:
+    DBInstanceClass: db.t2.small
+    Engine: MySQL
+     
+      
