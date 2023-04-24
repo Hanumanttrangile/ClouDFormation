@@ -1,13 +1,10 @@
+AWSTemplateFormatVersion: 2010-09-09
 Resources:
-  MyEC2Instance:
-    Type: :AWS::EC2::Instance
+  EC2Instance:
+    Type: 'AWS::EC2::Instance'
     Properties:
-    ImageId:ami-0742b4e673072066f
-    DependsOn: MyDB
-    MyDB:
-    Type: AWS::RDS::DBInstance
-    Properties:
-    DBInstanceClass: db.t2.small
-    Engine: MySQL
-     
+      ImageId: ami-06c2ec1ceac22e8d6
+      InstanceType: t2.micro
+      KeyName: HS2
+      
       
