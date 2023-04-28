@@ -1,5 +1,5 @@
 Parameters:
-  KeyName:
+  KeyName:RDSReportsKeypaird
     Description: Name of an existing EC2 key pair for SSH access to the EC2 instance.
     Type: AWS::EC2::KeyPair::KeyName
 
